@@ -12,7 +12,7 @@ def check_row(row):
     element = row[0]
     # Looping through the rest of the row
     for i in range(1, 3):
-        if i != element:
+        if row[i] != element:
             return False
     else:
         return element
@@ -95,3 +95,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
