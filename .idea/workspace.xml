@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b1d29d2-3378-40e5-923f-8bf54129d85d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Python_Assigment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Assigment.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tic_tac_toe.py" beforeDir="false" afterPath="$PROJECT_DIR$/tic_tac_toe.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tic_tac_toe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            <state>
+              <folding>
+                <element signature="e#29#154#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,8 +144,10 @@
     <entry file="file://$PROJECT_DIR$/numbers_sum.py" />
     <entry file="file://$PROJECT_DIR$/tic_tac_toe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state>
+          <folding>
+            <element signature="e#29#154#0" />
+          </folding>
         </state>
       </provider>
     </entry>
