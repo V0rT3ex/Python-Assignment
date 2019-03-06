@@ -17,3 +17,19 @@ def seif_alef():
     print("The sum of the numbers you have inserted:\t{}".format(sum))
 
 
+def seif_bet():
+    """
+    This function inputs a list of number
+    from the user and prints the sum of them.
+    """
+
+    # Initializing the sum.
+    sum = 0
+    numbers = input("Enter a list of numbers:\t")
+    numbers = numbers.split(',')
+
+    # Iterating over each number and summing.
+    for number in numbers:
+        sum += int(number)
+    print("The sum of the numbers you have inserted:\t{}".format(sum))
+
