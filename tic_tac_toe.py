@@ -30,3 +30,21 @@ def check_cols(matrix):
         if row1[i] == row2[i] and row2[i] == row3[i]:
             return row1[i]
     return False
+
+
+def check_diagonals(matrix):
+    """
+     This function receives the matrix and returns whether
+     one of the diagonals contains the same number or not.
+     If one does, it returns the number, otherwise it returns false.
+    """
+
+    # Initializing the rows of the matrix
+    row1, row2, row3 = matrix[0], matrix[1], matrix[2]
+
+    if row1[0] == row2[1] and row2[1] == row3[2]:
+        return row1[0]
+    elif row1[2] == row2[1] and row2[1] == row3[0]:
+        return row1[2]
+    return False
+
