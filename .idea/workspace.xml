@@ -15,8 +15,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/numbers_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="165">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#21#467#0" />
+                <element signature="e#491#886#0" />
+                <element signature="e#920#938#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,8 +145,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/numbers_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="165">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#21#467#0" />
+            <element signature="e#491#886#0" />
+            <element signature="e#920#938#0" />
+          </folding>
         </state>
       </provider>
     </entry>

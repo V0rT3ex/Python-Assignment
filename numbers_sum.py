@@ -33,3 +33,8 @@ def seif_bet():
         sum += int(number)
     print("The sum of the numbers you have inserted:\t{}".format(sum))
 
+
+if __name__ == '__main__':
+    seif_alef()
+    seif_bet()
+
