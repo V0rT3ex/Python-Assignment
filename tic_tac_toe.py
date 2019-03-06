@@ -1,3 +1,6 @@
+import sys
+
+
 def check_row(row):
     """
     This function receives a list, denoted by row,
@@ -68,3 +71,27 @@ def board_input():
 
     return matrix
 
+
+def main():
+    game = board_input()
+    for row in game:
+        temp = check_row(row)
+        if temp:
+            print("The winner is player {}".format(temp))
+            sys.exit()
+
+    temp = check_cols(game)
+    if temp:
+        print("The winner is player {}".format(temp))
+        sys.exit()
+
+    temp = check_diagonals(game)
+    if temp:
+        print("The winner is player {}".format(temp))
+        sys.exit()
+
+    print("Draw!")
+
+
+if __name__ == '__main__':
+    main()
