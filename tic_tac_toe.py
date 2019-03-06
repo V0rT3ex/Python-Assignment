@@ -48,3 +48,23 @@ def check_diagonals(matrix):
         return row1[2]
     return False
 
+
+def board_input():
+    """
+    This function asks the user to fill in
+    the board of the game and returns a matrix which represents
+    the board.
+    """
+
+    matrix = []
+
+    # Creating each row in the board
+    for i in range(1, 4):
+        print("Insert the numbers in row {}:".format(i))
+        temp = input()
+        temp = temp.split(',')
+        temp = [int(element) for element in temp]
+        matrix.append(temp)
+
+    return matrix
+
