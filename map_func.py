@@ -8,3 +8,9 @@ def map_function(l, function):
     l = [function(item) for item in l]
     return l
 
+
+def func1(val):
+    return val ** 2
+
+def func2(val):
+    return val + len('abc')
