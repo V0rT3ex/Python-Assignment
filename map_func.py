@@ -12,5 +12,17 @@ def map_function(l, function):
 def func1(val):
     return val ** 2
 
+
 def func2(val):
     return val + len('abc')
+
+
+if __name__ == '__main__':
+    l = [1, 3, 8]
+    print(l)
+    l = map_function(l, func1)
+    print(l)
+    l = map_function(l, func2)
+    print(l)
+
+
